@@ -12,10 +12,10 @@ public class Repository {
         if (instace == null){
             instace = new Repository();
             Collections.addAll(instace.items,
-                    new Item("Serega", 15),
-                    new Item("Lexa", 16),
-                    new Item("Vlad", 14),
-                    new Item("Max", 7)
+                    new Item(1,"Serega", 15),
+                    new Item(2,"Lexa", 16),
+                    new Item(3,"Vlad", 14),
+                    new Item(4,"Max", 7)
             );
         }
         return instace;
